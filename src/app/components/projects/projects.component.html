@@ -1,0 +1,21 @@
+<div class="ProjectWrapper" id="projects">
+    <div class="Container">
+        <div class="SectionTitle">Projects</div>
+        <div *ngFor="let project of projects">
+            <div class="Card">
+                <div class="CardLeft">
+                    <img src="{{project.img}}" alt="">
+                </div>
+                <div class="CardRight">
+                    <h4 class="projectTitle">{{project.title}}</h4>
+                    <p class="ProjectDesc">{{project.description}}</p>
+                    <div class="Stack">
+                        <span className="stackTitle">Tech Stack -</span>
+                        <span className="tags">{{project.tech_stack}}</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

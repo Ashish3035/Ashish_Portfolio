@@ -1,0 +1,45 @@
+.container-3 {
+    display: flex;
+}
+
+.career-column {
+    position: relative;
+    padding-top: 34px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.company {
+    position: relative;
+    left: -16px;
+    height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-left: 17px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #6f9bf1;
+    color: rgb(119, 119, 121);
+    line-height: 10px;
+}
+
+.position_dates {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.postion {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}

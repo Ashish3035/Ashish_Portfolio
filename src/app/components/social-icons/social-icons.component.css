@@ -1,0 +1,27 @@
+.social {
+    display: block;
+    position: fixed;
+    top: 48%;
+    left: 1.5rem;
+    transform: translateY(-50%);
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+.item {
+    margin-top: 1rem;
+}
+
+.icons {
+    font-size: 2rem;
+    color: rgb(119, 119, 121);
+    transition: all 0.2s ease-in 0s;
+    background-color: transparent;
+}
+
+.iconImg {
+    min-width: 2vw;
+}

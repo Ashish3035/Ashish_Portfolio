@@ -1,0 +1,27 @@
+<div class="ContactWrapper">
+    <div class="Container">
+        <div class="SectionTitle">About Me</div>
+        <div class="BigCard">
+            <img class="img"
+                src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+                alt="man-svgrepo">
+            <div class="AboutBio">
+                Hello! My name is <strong>Ashish Mukati</strong> and I enjoy creating things that live on the internet.
+                My interest in web development started back in 2014 when I decided to try editing custom Blogger themes
+                — redesigning & modifying blogger themes taught me a lot about HTML & CSS!
+                I have become confident using the following technologies.
+            </div>
+            <div class="AboutBio tagline2">
+                I have become confident using the following technologies.
+            </div>
+            <div class="technologies">
+                <div *ngFor="let stack of stackList">
+                    <div class="tech">
+                        <img src="{{stack.img}}" alt="{{stack.name}}" class="TechImg">
+                        <span class="TechName">{{stack.name}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
