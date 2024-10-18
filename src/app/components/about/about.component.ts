@@ -8,36 +8,37 @@ import { Component } from '@angular/core';
 export class AboutComponent {
   stackList = [
     {
-      img: `assets/Stack_Images/html5.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       name: "HTML",
     },
     {
-      img: `assets/Stack_Images/css3.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       name: "CSS",
     },
     {
-      img: `assets/Stack_Images/javascript.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       name: "JavaScript",
     },
     {
-      img: `assets/Stack_Images/angular.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
       name: "Angular",
     },
     {
-      img: `assets/Stack_Images/bootstrap.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
       name: "Bootstrap",
     },
     {
-      img: `assets/Stack_Images/sass.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
       name: "Scss",
     },
     {
-      img: `assets/Stack_Images/git.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       name: "Git",
     },
     {
-      img: `assets/Stack_Images/nodejs.svg`,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       name: "NodeJs",
     },
   ];
+  
 }

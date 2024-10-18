@@ -25,7 +25,7 @@ export class ProjectsComponent {
       demo_url: "https://your_project_demo_link",
     },
     {
-      img: `assets/am.png`,
+      img: `assets/approval_matrix.png`,
       title: "Approval Matrix",
       description:
         "User can set up approval conditions for specific companies to get filed approved before pushing to the repository",
